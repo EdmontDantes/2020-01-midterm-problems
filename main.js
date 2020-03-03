@@ -91,6 +91,8 @@ function getAverage (numbers) {
   return average;
 }
 
+
+//TriStateAreaOnly function passes in the debugger can't understand why it's not passing in the npm test
 function triStateAreaOnly (statesNames) {
   let onlyTristate = [' NY', ' NJ', ' CT'];
   let newArraywithOnlyTriState = [];
@@ -103,6 +105,8 @@ function triStateAreaOnly (statesNames) {
 }
 triStateAreaOnly(['Brooklyn, NY', 'Stamford, NH', 'Komboken, CT'])
 
+
+// This function only pushes letters instead of the whole items of an array 
 function removeTrolls (posts) {
   const newPostsWithLowerCase = [];
 for (const post of posts) {
@@ -140,6 +144,8 @@ function addToMultiDigitNumbers (numAddend, numbers) {
 
 addToMultiDigitNumbers (3, 24)
 
+
+//This function hyphenateNames is not even constructed properly to work
 function hyphenateNames (names) {
   let countWords = 0;
   const hyphenedNames = [];
